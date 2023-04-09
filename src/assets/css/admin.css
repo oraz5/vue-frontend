@@ -1,0 +1,72 @@
+.column.middle-large {
+    width: 80%;
+    white-space: normal;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   
+  }
+
+  .column.right {
+    width: 20%;
+    float: right;
+  }
+
+.card .card-body{
+    display: flex;
+}
+
+.card .card-body .price-text {
+    background-color: aquamarine;
+    position: absolute;
+    left: 55%;
+    top: 45%;
+    width: auto;
+    border-radius: 5px;
+}
+
+.card .card-body .quantity-text {
+    position: absolute;
+    left: 55%;
+    top: 15%;
+    width: auto;
+    border-radius: 5px;
+}
+
+.card .card-body img{
+    width: 7%;
+    height: auto;
+    max-width: 250px;
+    max-height: 250px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.card .card-body .codename-text {
+position: absolute;
+left: 20%;
+}
+
+.cart.box .card .card-body img{
+position: relative;
+left: 5px;
+}
+
+.column.middle-large .mt-2.collapse.show{
+ width: 250%;
+ position: relative;
+}
+
+.column.middle-large .order-sum{
+    left: 450%;
+    position: relative;
+}
+
+.column.middle-large .card .card-body .subtotal-text{
+    left: 70%;
+    position: relative;
+}
+
+.col-8 .options{
+    display: flex;
+}
